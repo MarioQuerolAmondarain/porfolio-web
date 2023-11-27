@@ -1,2 +1,16 @@
-<h1 i18n>Mi porfolio web</h1>
-<p i18n>Hola Mundo, esto va a ser mi porfolio</p>
+<div>
+  <h1>{{ "LANDING_PAGE.TITLE" | translate }}</h1>
+  <span>
+    {{ "LANDING_PAGE.TEXT" | translate }}
+  </span>
+</div>
+
+<select #langSelect (change)="translate.use(langSelect.value)">
+  <option
+    *ngFor="let lang of translate.getLangs()"
+    [value]="lang"
+    [selected]="lang === translate.currentLang"
+  >
+    {{ lang }}
+  </option>
+</select>
