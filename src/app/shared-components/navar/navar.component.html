@@ -1,5 +1,5 @@
 <div class="navar-position">
-  <!-- <select #langSelect (change)="translate.use(langSelect.value)">
+  <select #langSelect (change)="translate.use(langSelect.value)">
     <option
       *ngFor="let lang of translate.getLangs()"
       [value]="lang"
@@ -7,23 +7,7 @@
     >
       {{ lang }}
     </option>
-  </select> -->
-
-  <mat-form-field>
-    <select
-      matNativeControl
-      #langSelect
-      (change)="translate.use(langSelect.value)"
-    >
-      <ng-container
-        *ngFor="let lang of translate.getLangs(); let option = index"
-      >
-        <option [value]="lang" [selected]="lang === translate.currentLang">
-          {{ lang }}
-        </option>
-      </ng-container>
-    </select>
-  </mat-form-field>
+  </select>
 
   <div class="navar-flex">
     <div class="navar-item">{{ "NAVAR.HOME" | translate }}</div>
