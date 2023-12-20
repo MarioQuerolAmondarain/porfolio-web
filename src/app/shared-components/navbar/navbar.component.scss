@@ -1,11 +1,13 @@
-.navar-position {
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 1000; // Esto asegura que el navbar esté por encima de otros elementos
+  padding: 5px;
 }
 
-.navar-flex {
+.navbar-flex {
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -13,8 +15,18 @@
   flex-wrap: nowrap;
 }
 
-.navar-item {
+.navbar-item {
   font-family: "Pathway Gothic One", sans-serif;
   font-size: 1.8em;
   margin-right: 35px;
+}
+
+select {
+  width: auto;
+  background-color: #f4f4f4;
+}
+
+option {
+  font-family: "Pathway Gothic One", sans-serif;
+  font-size: 1.5em;
 }

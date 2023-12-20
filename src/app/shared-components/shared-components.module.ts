@@ -1,11 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { TranslateModule } from '@ngx-translate/core';
-import { NavarComponent } from './navar/navar.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
-  declarations: [NavarComponent],
+  declarations: [NavbarComponent],
   imports: [CommonModule, TranslateModule],
-  exports: [NavarComponent],
+  exports: [NavbarComponent],
 })
 export class SharedComponentsModule {}
