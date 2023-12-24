@@ -3,16 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Patua+One&display=swap");
 $light-green-color: #afc8ad;
 $dark-green-color: #88ab8e;
+$container-padding: 3%;
+$white-color: #f2f1eb;
 
 html,
 body {
   height: 100%;
-  background-color: #f2f1eb;
+  background-color: $white-color;
 }
 body {
   margin: 0;
-  font-family: Roboto, "Helvetica Neue", sans-serif;
-  font-size: large;
+  font-family: "Pathway Gothic one", sans-serif;
+  font-size: x-large;
 }
 
 h1,

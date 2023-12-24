@@ -10,7 +10,7 @@ h2 {
   font-size: 2vw;
 }
 p {
-  font-size: 1.3vw;
+  font-size: 1.6vw;
 }
 
 .about-me-container {
@@ -18,7 +18,7 @@ p {
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto;
   text-align: justify;
-  padding: 3%;
+  padding: $container-padding;
 }
 
 .title-container {

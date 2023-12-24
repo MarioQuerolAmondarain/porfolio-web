@@ -1,0 +1,47 @@
+@import "src/styles.scss";
+
+h3 {
+  // TODO Cambiar estilo del título
+  text-align: center;
+}
+
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: $container-padding;
+  padding-top: 10px;
+}
+
+.title {
+  color: $dark-green-color;
+  text-align: center;
+}
+
+.item-list-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.item-container {
+  img {
+    float: left;
+    width: 40px;
+    height: auto;
+    margin-right: 10px;
+  }
+  .item-text {
+    h2 {
+      padding: 0;
+      margin: 0;
+    }
+    p {
+      font-size: 1.6vw;
+      color: grey;
+      text-align: right;
+    }
+  }
+}

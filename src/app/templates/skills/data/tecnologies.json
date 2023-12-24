@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Angular",
+    "level": "SKILLS.INTERMEDIATE-ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/angular.webp"
+  },
+  {
+    "name": "Git",
+    "level": "SKILLS.ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/git.png"
+  },
+  {
+    "name": "Git Workflows",
+    "level": "SKILLS.ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/merge.png"
+  },
+  {
+    "name": "Java",
+    "level": "SKILLS.INTERMEDIATE",
+    "imgUrl": "./../../../assets/tecnologies/java.png"
+  },
+  {
+    "name": "Spring",
+    "level": "SKILLS.INTERMEDIATE",
+    "imgUrl": "./../../../assets/tecnologies/spring.webp"
+  }
+]
