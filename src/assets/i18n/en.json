@@ -12,5 +12,11 @@
     "CONTACT": "Contact",
     "EXPERIENCE": "Experience",
     "HOBBIES": "Hobbies"
+  },
+  "ABOUT_ME": {
+    "TITLE": "About me",
+    "DESCRIPTION_ONE": "I'm a Full Stack Developer with more than 5 years of experience in the IT sector. I have worked in different projects and technologies, from web development to mobile development, always looking for the best solution to the problem. I am a proactive person, with a great capacity for learning and adaptation, and I like to work in a team. I am passionate about technology and I am always looking for new challenges.",
+    "PHRASE": "Focus on creating maintainable and clean code",
+    "DESCRIPTION_TWO": "I like working with agile methodologies, like Scrum, and with tools like Jira, Git, Bitbucket, etc. I also like to work with good development practices, such as TDD, SOLID, DRY, KISS, etc. and with continuous integration tools such as Jenkins, SonarQube, etc."
   }
 }
