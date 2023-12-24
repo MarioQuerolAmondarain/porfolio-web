@@ -1,13 +1,13 @@
+@import "src/styles.scss";
+
 h1 {
   margin-bottom: 0px;
-  font-family: "Patua One", sans-serif;
   font-size: 4.5vw;
 }
 
 h2 {
   margin-top: 0px;
-  font-family: "Patua One", sans-serif;
-  color: #88ab8e;
+  color: $dark-green-color;
   font-size: 2.5vw;
 }
 
@@ -26,7 +26,7 @@ h2 {
 }
 
 .img-container {
-  background-color: #afc8ad;
+  background-color: $light-green-color;
   height: 100vh;
   display: flex;
   justify-content: center;

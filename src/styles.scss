@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Patua+One&display=swap");
+$light-green-color: #afc8ad;
+$dark-green-color: #88ab8e;
 
 html,
 body {
@@ -10,4 +12,10 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: large;
+}
+
+h1,
+h2 {
+  font-family: "Patua One", sans-serif;
 }
