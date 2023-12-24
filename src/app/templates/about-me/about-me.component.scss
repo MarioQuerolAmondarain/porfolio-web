@@ -5,6 +5,14 @@
   color: $dark-green-color;
 }
 
+h1,
+h2 {
+  font-size: 2vw;
+}
+p {
+  font-size: 1.3vw;
+}
+
 .about-me-container {
   display: grid;
   grid-template-columns: auto auto;
