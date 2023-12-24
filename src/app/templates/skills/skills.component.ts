@@ -11,9 +11,15 @@ export class SkillsComponent implements OnInit {
   softSkills: any[] = [
     {
       name: 'Teamwork',
+      imgUrl: './../../../assets/tecnologies/teamwork.png',
     },
     {
       name: 'Teamwork',
+      imgUrl: './../../../assets/tecnologies/teamwork.png',
+    },
+    {
+      name: 'Teamwork',
+      imgUrl: './../../../assets/tecnologies/teamwork.png',
     },
   ];
 

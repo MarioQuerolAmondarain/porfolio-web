@@ -18,7 +18,15 @@
   </div>
   <div class="item-list-container">
     <span class="title">{{ "SKILLS.SOFT_SKILLS" | translate }}</span>
-    <div class="item-container" *ngFor="let softSkill of softSkills">
+    <div
+      class="item-container soft-skill-padding"
+      *ngFor="let softSkill of softSkills"
+    >
+      <img
+        src="{{ softSkill.imgUrl }}"
+        class="card-img"
+        alt="{{ softSkill.name }}"
+      />
       <div class="item-text">
         <h2>
           {{ softSkill.name }}
