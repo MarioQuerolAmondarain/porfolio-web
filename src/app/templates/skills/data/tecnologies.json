@@ -1,27 +1,72 @@
 [
   {
     "name": "Angular",
-    "level": "SKILLS.INTERMEDIATE-ADVANCED",
+    "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
     "imgUrl": "./../../../assets/tecnologies/angular.webp"
   },
   {
+    "name": "HTML",
+    "level": "SKILLS.LEVELS.ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/html-5.png"
+  },
+  {
+    "name": "CSS",
+    "level": "SKILLS.LEVELS.ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/css-3.png"
+  },
+  {
+    "name": "TypeScript",
+    "level": "SKILLS.LEVELS.ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/typescript.png"
+  },
+  {
     "name": "Git",
-    "level": "SKILLS.ADVANCED",
+    "level": "SKILLS.LEVELS.ADVANCED",
     "imgUrl": "./../../../assets/tecnologies/git.png"
   },
   {
     "name": "Git Workflows",
-    "level": "SKILLS.ADVANCED",
+    "level": "SKILLS.LEVELS.ADVANCED",
     "imgUrl": "./../../../assets/tecnologies/merge.png"
   },
   {
     "name": "Java",
-    "level": "SKILLS.INTERMEDIATE",
+    "level": "SKILLS.LEVELS.INTERMEDIATE",
     "imgUrl": "./../../../assets/tecnologies/java.png"
   },
   {
     "name": "Spring",
-    "level": "SKILLS.INTERMEDIATE",
+    "level": "SKILLS.LEVELS.INTERMEDIATE",
     "imgUrl": "./../../../assets/tecnologies/spring.webp"
+  },
+  {
+    "name": "SQL",
+    "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/database.png"
+  },
+  {
+    "name": "RESTful API",
+    "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/api.png"
+  },
+  {
+    "name": "Postman Testing",
+    "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
+    "imgUrl": "./../../../assets/tecnologies/postman.png"
+  },
+  {
+    "name": "Firebase",
+    "level": "SKILLS.LEVELS.BASIC-INTERMEDIATE",
+    "imgUrl": "./../../../assets/tecnologies/firebase.png"
+  },
+  {
+    "name": "Elastic",
+    "level": "SKILLS.LEVELS.BASIC",
+    "imgUrl": "./../../../assets/tecnologies/elasticsearch.png"
+  },
+  {
+    "name": "Jenkins",
+    "level": "SKILLS.LEVELS.BASIC",
+    "imgUrl": "./../../../assets/tecnologies/jenkins.png"
   }
 ]

@@ -23,9 +23,25 @@
     "TITLE": "Skills",
     "TECHNOLOGIES": "Technologies",
     "SOFT_SKILLS": "Soft Skills",
-    "TOOLS": "Tools",
-    "INTERMEDIATE": "Intermediate",
-    "ADVANCED": "Advanced",
-    "INTERMEDIATE-ADVANCED": "Intermediate-Advanced"
+    "SOFT_SKILLS_LIST": {
+      "PROACTIVITY": "Proactivity",
+      "LEARNING": "Ease of learning",
+      "ADAPTATION": "Ease of adaptation",
+      "COMMUNICATION": "Effective communication",
+      "ORGANIZATION": "Organization and time management",
+      "MOTIVATION": "Motivation",
+      "COMMITMENT": "Commitment",
+      "EMPATHY": "Empathy",
+      "FEEDBACK": "Give and receive feedback",
+      "TEAMWORK": "Teamwork",
+      "CREATIVITY": "Creativity"
+    },
+    "LEVELS": {
+      "INTERMEDIATE": "Intermediate",
+      "ADVANCED": "Advanced",
+      "INTERMEDIATE-ADVANCED": "Intermediate-Advanced",
+      "BASIC": "Basic",
+      "BASIC-INTERMEDIATE": "Basic-Intermediate"
+    }
   }
 }

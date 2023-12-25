@@ -1,0 +1,46 @@
+[
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.PROACTIVITY",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.LEARNING",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.ADAPTATION",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.COMMUNICATION",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.ORGANIZATION",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.MOTIVATION",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.COMMITMENT",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.EMPATHY",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.FEEDBACK",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.TEAMWORK",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  },
+  {
+    "name": "SKILLS.SOFT_SKILLS_LIST.CREATIVITY",
+    "imgUrl": "./../../../assets/tecnologies/teamwork.png"
+  }
+]

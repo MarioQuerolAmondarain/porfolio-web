@@ -23,9 +23,25 @@
     "TITLE": "Mis Habilidades",
     "TECHNOLOGIES": "Tecnologías",
     "SOFT_SKILLS": "Habilidades blandas",
-    "TOOLS": "Herramientas",
-    "INTERMEDIATE": "Intermedio",
-    "ADVANCED": "Avanzado",
-    "INTERMEDIATE-ADVANCED": "Intermedio-Avanzado"
+    "SOFT_SKILLS_LIST": {
+      "PROACTIVITY": "Proactividad",
+      "LEARNING": "Facilidad de aprendizaje",
+      "ADAPTATION": "Facilidad de adaptación",
+      "COMMUNICATION": "Comunicación efectiva",
+      "ORGANIZATION": "Organización y gestión del tiempo",
+      "MOTIVATION": "Motivación",
+      "COMMITMENT": "Compromiso",
+      "EMPATHY": "Empatía",
+      "FEEDBACK": "Dar y recibir feedback",
+      "TEAMWORK": "Trabajo en equipo",
+      "CREATIVITY": "Creatividad"
+    },
+    "LEVELS": {
+      "INTERMEDIATE": "Intermedio",
+      "ADVANCED": "Avanzado",
+      "INTERMEDIATE-ADVANCED": "Intermedio-Avanzado",
+      "BASIC": "Básico",
+      "BASIC-INTERMEDIATE": "Básico-Intermedio"
+    }
   }
 }

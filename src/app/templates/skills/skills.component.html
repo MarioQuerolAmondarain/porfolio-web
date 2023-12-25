@@ -1,7 +1,6 @@
-<h3>Mis habilidades</h3>
 <div class="skills-container">
+  <h2 class="title">{{ "SKILLS.TECHNOLOGIES" | translate }}</h2>
   <div class="item-list-container">
-    <span class="title">{{ "SKILLS.TECHNOLOGIES" | translate }}</span>
     <div class="item-container" *ngFor="let technology of technologies">
       <img
         src="{{ technology.imgUrl }}"
@@ -16,8 +15,8 @@
       </div>
     </div>
   </div>
+  <h2 class="title">{{ "SKILLS.SOFT_SKILLS" | translate }}</h2>
   <div class="item-list-container">
-    <span class="title">{{ "SKILLS.SOFT_SKILLS" | translate }}</span>
     <div
       class="item-container soft-skill-padding"
       *ngFor="let softSkill of softSkills"
@@ -29,19 +28,9 @@
       />
       <div class="item-text">
         <h2>
-          {{ softSkill.name }}
+          {{ softSkill.name | translate }}
         </h2>
       </div>
     </div>
-  </div>
-  <div class="tools-container">
-    <span class="title">Herramientas</span>
-    <ul class="list-group">
-      <li class="list-group-item">An item</li>
-      <li class="list-group-item">A second item</li>
-      <li class="list-group-item">A third item</li>
-      <li class="list-group-item">A fourth item</li>
-      <li class="list-group-item">And a fifth one</li>
-    </ul>
   </div>
 </div>
