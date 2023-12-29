@@ -1,0 +1,13 @@
+.content-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  padding: 50px;
+  div {
+    border: 1px solid black;
+    max-width: 1200px;
+  }
+}
