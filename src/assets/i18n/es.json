@@ -1,7 +1,8 @@
 {
   "LANDING_PAGE": {
     "HI": "¡Hola!",
-    "NAME": "Soy Mario Querol",
+    "IM": "Soy",
+    "NAME": "Mario Querol",
     "POSITION": "Desarrollador Full Stack"
   },
   "NAVBAR": {

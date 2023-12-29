@@ -1,6 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import url("https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Patua+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+
 $light-green-color: #afc8ad;
 $dark-green-color: #88ab8e;
 $container-padding: 3%;
@@ -19,5 +21,6 @@ body {
 
 h1,
 h2 {
-  font-family: "Patua One", sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 900;
 }

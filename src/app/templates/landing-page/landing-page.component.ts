@@ -12,12 +12,12 @@ export class LandingPageComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {}
 
   ngAfterViewInit(): void {
-    gsap.from('.animation', {
-      stagger: 1,
-      opacity: 0,
-      duration: 3,
-      y: -50,
-      ease: 'ease-in',
-    });
+    // gsap.from('.animation', {
+    //   stagger: 1,
+    //   opacity: 0,
+    //   duration: 3,
+    //   y: -50,
+    //   ease: 'ease-in',
+    // });
   }
 }
