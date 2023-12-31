@@ -1,0 +1,57 @@
+@import "src/styles.scss";
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 72%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: $dark-green-color;
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
+
+section {
+  padding: 8px;
+  padding-top: 50px;
+}
+
+.event-title {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 600;
+  color: $dark-green-color;
+}
+
+.event-date {
+  font-size: 20px;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 500;
+  color: gray;
+  opacity: 0.7;
+  padding-left: 10px;
+  display: block;
+}
+
+.event-description {
+  font-size: 20px;
+  font-family: "Pathway Gothic One", sans-serif;
+  font-weight: 500;
+  padding-left: 10px;
+  display: block;
+}

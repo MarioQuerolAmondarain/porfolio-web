@@ -17,7 +17,7 @@
   "ABOUT_ME": {
     "TITLE": "Sobre mí",
     "DESCRIPTION_ONE": "Soy un Full Stack Developer con más de +5 años de experiencia en el sector IT. He trabajado en diferentes proyectos y tecnologías, desde desarrollo web hasta desarrollo móvil, buscando siempre la mejor solución al problema.",
-    "PHRASE": "Enfocado en crear código mantenible y limpio",
+    "PHRASE": "Enfocado en crear código mantenible y limpio.",
     "DESCRIPTION_TWO": "Me gusta trabajar con metodologías ágiles, como Scrum, y con herramientas como Jira, Git, Bitbucket, etc. También me gusta trabajar con buenas prácticas de desarrollo, como TDD, SOLID, DRY, KISS, etc. y con herramientas de integración continua como Jenkins, SonarQube, etc."
   },
   "SKILLS": {
@@ -43,6 +43,24 @@
       "INTERMEDIATE-ADVANCED": "Intermedio-Avanzado",
       "BASIC": "Básico",
       "BASIC-INTERMEDIATE": "Básico-Intermedio"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experiencia",
+    "EDUCATION": {
+      "TITLE": "Formación profesional de grado superior en Desarrollo de Aplicaciones Multiplataforma",
+      "DATE": "Sep 2020 - Jul 2022",
+      "DESCRIPTION": "Durante dos años de educación en el IES Virgen de la Paz aprendí los fundamentos de la programación orientada a objetos, bases de datos relacionales y otros conceptos básicos de programación. Aprendiendo principalmente Java."
+    },
+    "ANGULAR_BOOTCAMP": {
+      "TITLE": "Angular Bootcamp en Hello World! Software School",
+      "DATE": "Feb 2022 - Jun 2022",
+      "DESCRIPTION": "Durante tres meses aprendí los fundamentos de la programación web, aprendiendo Angular. También desarrolle conceptos generales de la programación y la informática enfocada al mundo laboral trabajando y practicando conceptos."
+    },
+    "DEVDEL": {
+      "TITLE": "Junior Full Stack en Dev&Del",
+      "DATE": "Feb 2022 - Actualidad",
+      "DESCRIPTION": "Trabajando en una consultora de software para proyectos en el sector asegurador en España. Trabajando principalmente con Angular, Java con Spring, Git y más tecnologías."
     }
   }
 }

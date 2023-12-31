@@ -17,7 +17,7 @@
   "ABOUT_ME": {
     "TITLE": "About me",
     "DESCRIPTION_ONE": "I'm a Full Stack Developer with more than 5 years of experience in the IT sector. I have worked in different projects and technologies, from web development to mobile development, always looking for the best solution to the problem.",
-    "PHRASE": "Focus on creating maintainable and clean code",
+    "PHRASE": "Focus on creating maintainable and clean code.",
     "DESCRIPTION_TWO": "I like working with agile methodologies, like Scrum, and with tools like Jira, Git, Bitbucket, etc. I also like to work with good development practices, such as TDD, SOLID, DRY, KISS, etc. and with continuous integration tools such as Jenkins, SonarQube, etc."
   },
   "SKILLS": {
@@ -43,6 +43,24 @@
       "INTERMEDIATE-ADVANCED": "Intermediate-Advanced",
       "BASIC": "Basic",
       "BASIC-INTERMEDIATE": "Basic-Intermediate"
+    }
+  },
+  "EXPERIENCE": {
+    "TITLE": "Experience",
+    "EDUCATION": {
+      "TITLE": "Advanced education in Multiplatform Application Development",
+      "DATE": "Sep 2020 - Jul 2022",
+      "DESCRIPTION": "During two years of education at IES Virgen de la Paz I learned the fundamentals of object-oriented programming, relational databases and other basic programming concepts. Learning mainly Java."
+    },
+    "ANGULAR_BOOTCAMP": {
+      "TITLE": "Angular Bootcamp at Hello World! Software School",
+      "DATE": "Feb 2022 - Jun 2022",
+      "DESCRIPTION": "For three months I learned the basics of web programming, learning Angular. I also developed general concepts of programming and computer science focused on the working world by working and practicing concepts."
+    },
+    "DEVDEL": {
+      "TITLE": "Junior Full Stack at Dev&Del",
+      "DATE": "Feb 2022 - Present",
+      "DESCRIPTION": "Working in a software consultancy for projects in the insurance sector in Spain. Working mainly with Angular, Java with Spring, Git and more technologies."
     }
   }
 }
