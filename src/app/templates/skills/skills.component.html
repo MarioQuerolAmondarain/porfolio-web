@@ -1,35 +1,29 @@
 <div class="skills-container">
-  <h2 class="title">{{ "SKILLS.TECHNOLOGIES" | translate }}</h2>
+  <h2 class="section-title">{{ "SKILLS.TECHNOLOGIES" | translate }}</h2>
   <div class="item-list-container">
     <div class="item-container" *ngFor="let technology of technologies">
-      <img
-        src="{{ technology.imgUrl }}"
-        class="card-img"
-        alt="{{ technology.name }}"
-      />
+      <div>
+        <img src="{{ technology.imgUrl }}" alt="{{ technology.name }}" />
+      </div>
       <div class="item-text">
-        <h2>
+        <span class="item-title">
           {{ technology.name }}
-        </h2>
-        <p>{{ technology.level | translate }}</p>
+        </span>
+        <span class="item-level">{{ technology.level | translate }}</span>
       </div>
     </div>
   </div>
-  <h2 class="title">{{ "SKILLS.SOFT_SKILLS" | translate }}</h2>
+  <br />
+  <h2 class="section-title">{{ "SKILLS.SOFT_SKILLS" | translate }}</h2>
   <div class="item-list-container">
     <div
       class="item-container soft-skill-padding"
       *ngFor="let softSkill of softSkills"
     >
-      <img
-        src="{{ softSkill.imgUrl }}"
-        class="card-img"
-        alt="{{ softSkill.name }}"
-      />
       <div class="item-text">
-        <h2>
+        <span class="item-title">
           {{ softSkill.name | translate }}
-        </h2>
+        </span>
       </div>
     </div>
   </div>

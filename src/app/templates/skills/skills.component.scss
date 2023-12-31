@@ -1,57 +1,39 @@
 @import "src/styles.scss";
 
-h3 {
-  // TODO Cambiar estilo del título
-  text-align: center;
-}
-
-.skills-container {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  padding: $container-padding;
-  padding-top: 10px;
-}
-
-.title {
-  color: $dark-green-color;
-  text-align: center;
-}
-
 .item-list-container {
-  width: 90%;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 40px;
+  height: auto;
+  float: left;
 }
 
 .item-container {
-  width: 30%;
-  min-width: fit-content;
-  img {
-    float: left;
-    width: 40px;
-    height: auto;
-    margin-right: 10px;
-  }
-  .item-text {
-    h2 {
-      padding: 0;
-      margin: 0;
-      // white-space: nowrap;
-    }
-    p {
-      font-size: 1.5vw;
-      color: grey;
-      text-align: left;
-      padding-left: 60px;
-    }
-  }
+  display: flex;
 }
 
-.soft-skill-padding {
-  padding-bottom: 30px;
+.item-title {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.9;
+  padding-left: 10px;
+  display: block;
+}
+
+.item-level {
+  color: gray;
+  font-size: 20px;
+  font-style: normal;
+  padding-left: 25px;
+  line-height: 0.9;
+  opacity: 0.7;
 }
