@@ -1,0 +1,43 @@
+.bento-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "verticalPhoto verticalPhoto text squarePhotoMe"
+    "verticalPhoto verticalPhoto landscapePhoto2 verticalPhoto2"
+    "squarePhoto landscapePhoto landscapePhoto verticalPhoto2";
+}
+img {
+  width: 360px;
+  height: auto;
+}
+.verticalPhoto {
+  grid-area: verticalPhoto;
+}
+
+.text {
+  background-color: gainsboro;
+  grid-area: text;
+}
+
+.landscapePhoto2 {
+  grid-area: landscapePhoto2;
+}
+
+.squarePhotoMe {
+  grid-area: squarePhotoMe;
+}
+
+.verticalPhoto2 {
+  grid-area: verticalPhoto2;
+}
+
+.landscapePhoto {
+  grid-area: landscapePhoto;
+}
+
+.squarePhoto {
+  grid-area: squarePhoto;
+}

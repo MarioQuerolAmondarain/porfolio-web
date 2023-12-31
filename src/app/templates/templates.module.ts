@@ -5,6 +5,7 @@ import { TranslateModule } from '@ngx-translate/core';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { HobbiesComponent } from './hobbies/hobbies.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { ExperienceComponent } from './experience/experience.component';
     AboutMeComponent,
     SkillsComponent,
     ExperienceComponent,
+    HobbiesComponent,
   ],
   imports: [CommonModule, TranslateModule],
   exports: [
@@ -19,6 +21,7 @@ import { ExperienceComponent } from './experience/experience.component';
     AboutMeComponent,
     SkillsComponent,
     ExperienceComponent,
+    HobbiesComponent,
   ],
 })
 export class TemplatesModule {}
