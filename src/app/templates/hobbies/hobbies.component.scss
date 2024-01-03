@@ -1,7 +1,7 @@
 .bento-grid {
   display: grid;
-  grid-template-columns: 365px 365px 365px;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: auto auto auto;
   gap: 10px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -27,15 +27,23 @@ img {
 
 .text {
   background-color: gainsboro;
+  height: 100%;
+  padding: 15px;
   grid-area: text;
 }
 
 .landscapePhoto2 {
   grid-area: landscapePhoto2;
+  img {
+    height: 100%;
+  }
 }
 
 .squarePhotoMe {
   grid-area: squarePhotoMe;
+  img {
+    height: 100%;
+  }
 }
 
 .verticalPhoto2 {
