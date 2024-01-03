@@ -62,5 +62,8 @@
       "DATE": "Feb 2022 - Actualidad",
       "DESCRIPTION": "Trabajando en una consultora de software para proyectos en el sector asegurador en España. Trabajando principalmente con Angular, Java con Spring, Git y más tecnologías."
     }
+  },
+  "HOBBIES": {
+    "TITLE": "Hobbies"
   }
 }

@@ -1,18 +1,26 @@
 .bento-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 365px 365px 365px;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 0px 0px;
+  gap: 10px;
   grid-auto-flow: row;
   grid-template-areas:
-    "verticalPhoto verticalPhoto text squarePhotoMe"
-    "verticalPhoto verticalPhoto landscapePhoto2 verticalPhoto2"
-    "squarePhoto landscapePhoto landscapePhoto verticalPhoto2";
+    "verticalPhoto text squarePhotoMe"
+    "verticalPhoto landscapePhoto2 verticalPhoto2"
+    "squarePhoto landscapePhoto verticalPhoto2";
+  div {
+    border-radius: 10px;
+    img {
+      border-radius: 10px;
+    }
+  }
 }
+
 img {
-  width: 360px;
+  width: 100%;
   height: auto;
 }
+
 .verticalPhoto {
   grid-area: verticalPhoto;
 }
