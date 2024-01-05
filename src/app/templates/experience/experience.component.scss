@@ -14,9 +14,6 @@
   position: absolute;
   display: block;
   top: 0;
-}
-
-.timeline .timeline-item:after {
   background-color: $dark-green-color;
   left: -38px;
   border-radius: 50%;
@@ -27,7 +24,6 @@
 
 section {
   padding: 8px;
-  padding-top: 50px;
 }
 
 .event-title {
