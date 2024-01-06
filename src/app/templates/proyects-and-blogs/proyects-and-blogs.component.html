@@ -1,6 +1,36 @@
 <h2 class="section-title">{{ "PROYECTS.TITLE" | translate }}</h2>
 <div class="item-container">
   <ng-container *ngIf="proyects.length > 0; else workingContent">
+    <div class="card-item" *ngFor="let proyect of proyects">
+      <img src="{{ proyect.image }}" alt="Blog" />
+      <div class="card-item-body">
+        <h1 class="card-item-title">
+          {{ proyect.title | translate }}
+        </h1>
+        <h3 class="card-item-subtitle">
+          {{ proyect.subtitle | translate }}
+        </h3>
+        <div>
+          <p class="card-item-description">
+            {{ proyect.description | translate }}
+          </p>
+          <div class="technologies-container">
+            <img
+              *ngFor="let technology of proyect.technologies"
+              class="card-item-icon"
+              src="{{ technology.image }}"
+              alt="{{ technology.name }}"
+            />
+          </div>
+        </div>
+        <a href="{{ proyect.link }}" target="_blank"
+          ><img
+            src="./../../../assets/icons/link.png"
+            alt="Link"
+            class="card-item-icon"
+        /></a>
+      </div>
+    </div>
   </ng-container>
   <ng-template #workingContent>
     <div class="card-item">
