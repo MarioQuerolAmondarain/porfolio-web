@@ -65,5 +65,29 @@
   },
   "HOBBIES": {
     "TITLE": "Hobbies"
+  },
+  "PROYECTS": {
+    "TITLE": "Proyectos",
+    "WORKING_ON": {
+      "TITLE": "¡Zona de obras!",
+      "SUBTITLE": "En proceso creativo",
+      "DESCRIPTION": "Actualmente estoy trabajando en nuevas cosas emocionantes para agregar aquí. ¡Mantente atento para ver las novedades que se avecinan! 🚀✨"
+    },
+    "LIST": {}
+  },
+  "BLOGS": {
+    "TITLE": "Blogs",
+    "LIST": {
+      "CLASSROOM_TO_OFFICE": {
+        "TITLE": "Del aula a la oficina: Consejos de un junior",
+        "SUBTITLE": "La experiencia de un estudiante de FP que entra al mundo laboral contada en siete consejos.",
+        "DESCRIPTION": "En este blog detallo una lista de consejos que siempre tengo presente a la hora de entrar estar en los primeros proyectos como desarrollador"
+      },
+      "CLEAN_GIT": {
+        "TITLE": "Clean Git",
+        "SUBTITLE": "Una guía sobre los flujos de trabajo con git más populares.",
+        "DESCRIPTION": " ¿Cansado de que tu repositorio de git esté hecho un auténtico desastre? ¿Te sientes como si estuvieras navegando en un océano de cambios y actualizaciones sin fin? ¡No te preocupes! Los flujos de trabajo con git pueden ayudarte a ver la luz al final del túnel."
+      }
+    }
   }
 }

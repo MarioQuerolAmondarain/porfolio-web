@@ -64,6 +64,31 @@
     }
   },
   "HOBBIES": {
-    "TITLE": "Hobbies"
+    "TITLE": "Hobbies",
+    "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+  },
+  "PROJECTS": {
+    "TITLE": "Projects",
+    "WORKING_ON": {
+      "TITLE": "Works Zone!",
+      "SUBTITLE": "In creative process",
+      "DESCRIPTION": "I'm currently working on exciting new things to add here - stay tuned for more to come! 🚀✨"
+    },
+    "LIST": {}
+  },
+  "BLOGS": {
+    "TITLE": "Blogs",
+    "LIST": {
+      "CLASSROOM_TO_OFFICE": {
+        "TITLE": "From Classroom to Office: Tips from a Junior",
+        "SUBTITLE": "The experience of a vocational training student entering the working world, told in seven tips.",
+        "DESCRIPTION": "In this blog, I detail a list of tips that I always keep in mind when starting out on the first projects as a developer."
+      },
+      "CLEAN_GIT": {
+        "TITLE": "Clean Git",
+        "SUBTITLE": "A guide to the most popular git workflows.",
+        "DESCRIPTION": "Tired of your git repository being a complete mess? Feeling like you're navigating an ocean of endless changes and updates? Don't worry! Git workflows can help you see the light at the end of the tunnel."
+      }
+    }
   }
 }

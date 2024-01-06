@@ -1,0 +1,56 @@
+@import "src/styles.scss";
+
+.card-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+  outline: 2px solid #d0d0d0;
+  background: #f2f1eb;
+  height: 200px;
+  gap: 10px;
+}
+.img-example {
+  width: 320px;
+  height: 100%;
+  border-radius: 7px 0px 0px 7px;
+  background-color: #d0d0d0;
+}
+
+img {
+  width: 320px;
+  height: 100%;
+  border-radius: 7px 0px 0px 7px;
+}
+
+.card-item-body {
+  width: 780px;
+  height: 100%;
+  padding-top: 10px;
+  padding-right: 10px;
+
+  .card-item-title {
+    display: block;
+    color: $dark-green-color;
+    font-size: 28px;
+    font-style: normal;
+    line-height: normal;
+  }
+  .card-item-subtitle {
+    color: gray;
+    font-family: "Varela Round", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .card-item-description {
+    color: #000;
+    font-family: "Varela Round", sans-serif;
+    // font-family: "Pathway Gothic One", sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
