@@ -2,7 +2,7 @@
   {
     "name": "Angular",
     "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
-    "imgUrl": "./../../../assets/tecnologies/angular.webp"
+    "imgUrl": "./../../../assets/tecnologies/angular.svg"
   },
   {
     "name": "HTML",
@@ -50,7 +50,7 @@
     "imgUrl": "./../../../assets/tecnologies/api.png"
   },
   {
-    "name": "Postman Testing",
+    "name": "Postman",
     "level": "SKILLS.LEVELS.INTERMEDIATE-ADVANCED",
     "imgUrl": "./../../../assets/tecnologies/postman.png"
   },
