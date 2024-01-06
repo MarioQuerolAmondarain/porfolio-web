@@ -55,6 +55,11 @@
     "imgUrl": "./../../../assets/tecnologies/postman.png"
   },
   {
+    "name": "Figma",
+    "level": "SKILLS.LEVELS.BASIC-INTERMEDIATE",
+    "imgUrl": "./../../../assets/tecnologies/figma.svg"
+  },
+  {
     "name": "Firebase",
     "level": "SKILLS.LEVELS.BASIC-INTERMEDIATE",
     "imgUrl": "./../../../assets/tecnologies/firebase.png"
