@@ -22,20 +22,24 @@
 
 <h2 class="section-title">{{ "BLOGS.TITLE" | translate }}</h2>
 <div class="item-container">
-  <div *ngFor="let blog of blogs">
-    <div class="card-item">
-      <img src="{{ blog.image }}" alt="Blog" />
-      <div class="card-item-body">
-        <h1 class="card-item-title">
-          {{ blog.title | translate }}
-        </h1>
-        <h3 class="card-item-subtitle">
-          {{ blog.subtitle | translate }}
-        </h3>
-        <p class="card-item-description">
-          {{ blog.description | translate }}
-        </p>
-      </div>
+  <div class="card-item" *ngFor="let blog of blogs">
+    <img src="{{ blog.image }}" alt="Blog" />
+    <div class="card-item-body">
+      <h1 class="card-item-title">
+        {{ blog.title | translate }}
+      </h1>
+      <h3 class="card-item-subtitle">
+        {{ blog.subtitle | translate }}
+      </h3>
+      <p class="card-item-description">
+        {{ blog.description | translate }}
+      </p>
+      <a href="{{ blog.link }}" target="_blank"
+        ><img
+          src="./../../../assets/icons/link.png"
+          alt="Link"
+          class="card-item-icon"
+      /></a>
     </div>
   </div>
 </div>

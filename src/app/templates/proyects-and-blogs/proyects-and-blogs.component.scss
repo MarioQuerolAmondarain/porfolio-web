@@ -17,40 +17,48 @@
   background-color: #d0d0d0;
 }
 
-img {
-  width: 320px;
-  height: 100%;
-  border-radius: 7px 0px 0px 7px;
-}
-
-.card-item-body {
-  width: 780px;
-  height: 100%;
-  padding-top: 10px;
-  padding-right: 10px;
-
-  .card-item-title {
-    display: block;
-    color: $dark-green-color;
-    font-size: 28px;
-    font-style: normal;
-    line-height: normal;
+.card-item {
+  margin-bottom: 20px;
+  img {
+    width: 320px;
+    height: 100%;
+    border-radius: 7px 0px 0px 7px;
   }
-  .card-item-subtitle {
-    color: gray;
-    font-family: "Varela Round", sans-serif;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-  }
-  .card-item-description {
-    color: #000;
-    font-family: "Varela Round", sans-serif;
-    // font-family: "Pathway Gothic One", sans-serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+  .card-item-body {
+    width: 780px;
+    height: 100%;
+    padding-right: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 25px 75px 50px;
+    .card-item-title {
+      padding-top: 10px;
+      display: block;
+      color: $dark-green-color;
+      font-size: 28px;
+      font-style: normal;
+      line-height: normal;
+    }
+    .card-item-subtitle {
+      color: gray;
+      font-family: "Varela Round", sans-serif;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .card-item-description {
+      color: #000;
+      font-family: "Varela Round", sans-serif;
+      font-size: 17px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    .card-item-icon {
+      width: 25px;
+      height: 25px;
+      margin-right: 10px;
+    }
   }
 }
