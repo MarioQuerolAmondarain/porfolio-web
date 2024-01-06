@@ -1,3 +1,5 @@
+@import "src/styles.scss";
+
 .bento-grid {
   display: grid;
   grid-template-columns: 360px 360px 360px;
@@ -5,8 +7,8 @@
   gap: 10px;
   grid-auto-flow: row;
   grid-template-areas:
-    "verticalPhoto text squarePhotoMe"
-    "verticalPhoto landscapePhoto2 verticalPhoto2"
+    "verticalPhoto text text"
+    "verticalPhoto squarePhotoMe verticalPhoto2"
     "squarePhoto landscapePhoto verticalPhoto2";
   div {
     border-radius: 10px;
@@ -23,13 +25,21 @@ img {
 
 .verticalPhoto {
   grid-area: verticalPhoto;
+  img {
+    height: 100%;
+  }
 }
 
 .text {
-  background-color: gainsboro;
+  outline: 2px solid #d0d0d0;
+  background: #f2f1eb;
   height: 100%;
   padding: 15px;
   grid-area: text;
+  p {
+    font-size: 19px;
+    font-family: "Varela Round", sans-serif;
+  }
 }
 
 .landscapePhoto2 {

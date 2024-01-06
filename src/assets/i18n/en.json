@@ -65,7 +65,9 @@
   },
   "HOBBIES": {
     "TITLE": "Hobbies",
-    "TEXT": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris"
+    "PHRASE_ONE": "Climbing, a sport that has changed my life.",
+    "PHRASE_TWO": "Beyond being just a sport, for me, it is a way of life that constantly challenges me to improve, to surpass my physical and mental limits, and to appreciate the beauty of landscapes.",
+    "PHRASE_THREE": "I started climbing in 2021 and haven't stopped since. I have traveled to many places to climb and have met many people who have become friends and family. I hope to continue enjoying climbing for the rest of my life."
   },
   "PROJECTS": {
     "TITLE": "Projects",
