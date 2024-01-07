@@ -1,25 +1,39 @@
 <div class="navbar-container">
-  <select
-    class="form-select form-select-sg mb-2"
-    #langSelect
-    (change)="translate.use(langSelect.value)"
-  >
-    <option
-      *ngFor="let lang of translate.getLangs()"
-      [value]="lang"
-      [selected]="lang === translate.currentLang"
+  <div class="navbar-flex">
+    <select
+      class="form-select form-select-sg mb-2"
+      #langSelect
+      (change)="translate.use(langSelect.value)"
     >
-      {{ lang | uppercase }}
-    </option>
-  </select>
+      <option
+        *ngFor="let lang of translate.getLangs()"
+        [value]="lang"
+        [selected]="lang === translate.currentLang"
+      >
+        {{ lang | uppercase }}
+      </option>
+    </select>
 
-  <!-- <div class="navbar-flex">
-    <div class="navbar-item">{{ "NAVBAR.HOME" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.ABOUT" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.SKILLS" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.EXPERIENCE" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.PROJECTS" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.HOBBIES" | translate }}</div>
-    <div class="navbar-item">{{ "NAVBAR.CONTACT" | translate }}</div>
-  </div> -->
+    <a href="#home" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.HOME" | translate }}
+    </a>
+    <a href="#about-me" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.ABOUT" | translate }}
+    </a>
+    <a href="#experience" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.EXPERIENCE" | translate }}
+    </a>
+    <a href="#skills" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.SKILLS" | translate }}
+    </a>
+    <a href="#projects" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.PROJECTS" | translate }}
+    </a>
+    <a href="#hobbies" type="button" class="btn btn-outline-dark">
+      {{ "NAVBAR.HOBBIES" | translate }}
+    </a>
+    <a href="#contact" type="button" class="btn btn-outline-dark last-button">
+      {{ "NAVBAR.CONTACT" | translate }}
+    </a>
+  </div>
 </div>
