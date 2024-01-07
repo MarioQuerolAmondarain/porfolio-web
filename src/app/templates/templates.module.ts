@@ -9,6 +9,7 @@ import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProjectsAndBlogsComponent } from './projects-and-blogs/projects-and-blogs.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
 import { ClipboardModule } from 'ngx-clipboard';
+import { ToastrModule } from 'ngx-toastr';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,12 @@ import { ClipboardModule } from 'ngx-clipboard';
     ProjectsAndBlogsComponent,
     ContactMeComponent,
   ],
-  imports: [CommonModule, TranslateModule, ClipboardModule],
+  imports: [
+    CommonModule,
+    TranslateModule,
+    ClipboardModule,
+    ToastrModule.forRoot(),
+  ],
   exports: [
     LandingPageComponent,
     AboutMeComponent,

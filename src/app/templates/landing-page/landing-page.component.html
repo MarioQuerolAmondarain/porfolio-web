@@ -17,7 +17,11 @@
         >
           <img src="./../../assets/redes/linkedin.png" alt="Linkedin enlace" />
         </a>
-        <button ngxClipboard [cbContent]="'marioquerolamondarain@gmail.com'">
+        <button
+          ngxClipboard
+          [cbContent]="'marioquerolamondarain@gmail.com'"
+          (click)="showToaster()"
+        >
           <img src="./../../assets/redes/gmail.png" alt="Contacta!" />
         </button>
       </div>
