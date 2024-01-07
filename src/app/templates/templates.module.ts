@@ -8,6 +8,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProjectsAndBlogsComponent } from './projects-and-blogs/projects-and-blogs.component';
 import { ContactMeComponent } from './contact-me/contact-me.component';
+import { ClipboardModule } from 'ngx-clipboard';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,7 @@ import { ContactMeComponent } from './contact-me/contact-me.component';
     ProjectsAndBlogsComponent,
     ContactMeComponent,
   ],
-  imports: [CommonModule, TranslateModule],
+  imports: [CommonModule, TranslateModule, ClipboardModule],
   exports: [
     LandingPageComponent,
     AboutMeComponent,

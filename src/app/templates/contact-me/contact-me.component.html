@@ -8,7 +8,12 @@
       <img src="./../../../assets/icons/send-2.svg" alt="Send" />
     </a>
   </button>
-  <button type="button" class="btn btn-outline-success">
+  <button
+    ngxClipboard
+    [cbContent]="'marioquerolamondarain@gmail.com'"
+    type="button"
+    class="btn btn-outline-success"
+  >
     <img src="./../../../assets/icons/copy.svg" alt="Copy" />
   </button>
 </div>
