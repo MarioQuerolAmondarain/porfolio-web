@@ -92,5 +92,8 @@
         "DESCRIPTION": " ¿Cansado de que tu repositorio de git esté hecho un auténtico desastre? ¿Te sientes como si estuvieras navegando en un océano de cambios y actualizaciones sin fin? ¡No te preocupes! Los flujos de trabajo con git pueden ayudarte a ver la luz al final del túnel."
       }
     }
+  },
+  "CONTACT": {
+    "TITLE": "Contacto"
   }
 }

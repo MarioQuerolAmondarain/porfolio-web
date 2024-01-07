@@ -92,5 +92,8 @@
         "DESCRIPTION": "Tired of your git repository being a complete mess? Feeling like you're navigating an ocean of endless changes and updates? Don't worry! Git workflows can help you see the light at the end of the tunnel."
       }
     }
+  },
+  "CONTACT": {
+    "TITLE": "Contact"
   }
 }

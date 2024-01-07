@@ -7,6 +7,7 @@ import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { HobbiesComponent } from './hobbies/hobbies.component';
 import { ProjectsAndBlogsComponent } from './projects-and-blogs/projects-and-blogs.component';
+import { ContactMeComponent } from './contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProjectsAndBlogsComponent } from './projects-and-blogs/projects-and-blo
     ExperienceComponent,
     HobbiesComponent,
     ProjectsAndBlogsComponent,
+    ContactMeComponent,
   ],
   imports: [CommonModule, TranslateModule],
   exports: [
@@ -25,6 +27,7 @@ import { ProjectsAndBlogsComponent } from './projects-and-blogs/projects-and-blo
     ExperienceComponent,
     HobbiesComponent,
     ProjectsAndBlogsComponent,
+    ContactMeComponent,
   ],
 })
 export class TemplatesModule {}
