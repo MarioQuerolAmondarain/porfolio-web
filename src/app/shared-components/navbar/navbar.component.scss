@@ -12,7 +12,7 @@
     align-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: rgba(black, 0.8);
+    background-color: rgba($color: #1f3523, $alpha: 0.9);
     border-radius: 30px;
     width: 900px;
     a {
@@ -30,7 +30,6 @@
 select {
   width: 80%;
   height: 100%;
-  background-color: #f4f4f4;
   border: 0px;
   border-radius: 30px 0px 0px 30px;
   margin: 0 !important;
